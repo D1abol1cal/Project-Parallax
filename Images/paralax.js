@@ -4,7 +4,7 @@ window.onload = function() {
     
     let s = this.scrollY;
     let w = this.outerWidth;
-    let h = document.getElementsByClassName('paralax')[0].clientWidth;
+    let h = document.getElementsByClassName('parallax')[0].clientWidth;
     let h_b = document.getElementsByClassName('container')[0].clientWidth;
     let p = s/h*100;
     let p_b = s/h_b*100;
